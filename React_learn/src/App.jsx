@@ -9,11 +9,9 @@ const App = () => {
   console.log(data);
 
   return (
-
     <>
       <AxiosLearn />
     </>
-
   )
 
 }
