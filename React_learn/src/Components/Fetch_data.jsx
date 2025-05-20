@@ -31,12 +31,12 @@ const AxiosLearn = () => {
       transition={{ duration: 0.5 }}
       className="font-sans p-4 sm:p-6 md:p-8 bg-black min-h-screen text-gray-300"
     >
-      {/* Heading */}
+
       <h1 className="text-3xl sm:text-4xl text-center font-bold text-gray-100 mb-8">
         Ahmed - FrontEnd Task
       </h1>
 
-      {/* Centered Button */}
+
       <div className="flex justify-center mb-10">
         <motion.button
           onClick={getData}
@@ -47,7 +47,7 @@ const AxiosLearn = () => {
         </motion.button>
       </div>
 
-      {/* Loading */}
+
       {loading && (
         <div className="text-center text-lg text-gray-400 font-medium">
           Loading...
@@ -90,8 +90,7 @@ const AxiosLearn = () => {
           ))}
         </div>
       )}
-
-      {/* Modal */}
+      
       <AnimatePresence>
         {selectedImage && (
           <motion.div
